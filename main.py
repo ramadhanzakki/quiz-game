@@ -70,7 +70,7 @@ def main():
                     continue    
 
             if quiz_difficulty == 1:
-                all_question = read_question.read_questions_from_csv('geography.csv')
+                all_question = read_question.read_questions_from_csv('question_list/geography.csv')
                 for q in all_question:
                     modules.ask_question(
                         q['question'],
