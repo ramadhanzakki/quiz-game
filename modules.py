@@ -15,9 +15,10 @@ def increment_question_count():
 
 
 def ask_question(question, answer1, answer2, answer3, correct_answer):
+    number = increment_question_count()
 
     print(
-        f'Question {increment_question_count()}: {question}?\na) {answer1}\nb) {answer2}\nc) {answer3}')
+        f'Question {number}: {question}?\na) {answer1}\nb) {answer2}\nc) {answer3}')
 
     while True:
         user_answer = input('Your answer: ').lower()
