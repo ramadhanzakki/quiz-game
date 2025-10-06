@@ -1,6 +1,5 @@
 import modules as modules
 import read_question as read_question
-import question_list    
 
 
 def geography():
